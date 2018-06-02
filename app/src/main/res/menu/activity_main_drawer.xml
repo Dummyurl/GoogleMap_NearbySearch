@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Category">
+            <menu>
+                <item
+                    android:id="@+id/hospital"
+                    android:icon="@drawable/ic_hospital"
+                    android:title="Hospital" />
+                <item
+                    android:id="@+id/doctor"
+                    android:icon="@drawable/ic_doctor"
+                    android:title="Doctor" />
+                <item
+                    android:id="@+id/pharmacy"
+                    android:icon="@drawable/ic_phamarcy"
+                    android:title="Pharmacy" />
+                <item
+                    android:id="@+id/bloodbank"
+                    android:icon="@drawable/ic_phamarcy"
+                    android:title="Blood Bank" />
+
+            </menu>
+        </item>
+
+        <!--<item android:title="Communicate">-->
+            <!--<menu>-->
+                <!--<item-->
+                    <!--android:id="@+id/phone"-->
+                    <!--android:icon="@drawable/ic_menu_share"-->
+                    <!--android:title="Phone Call" />-->
+                <!--<item-->
+                    <!--android:id="@+id/whatsapp"-->
+                    <!--android:icon="@drawable/ic_menu_send"-->
+                    <!--android:title="WhatsApp Call" />-->
+            <!--</menu>-->
+        <!--</item>-->
+        <item android:title="Profile">
+            <menu>
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="User Profile" />
+            </menu>
+        </item>
+
+    </group>
+</menu>
